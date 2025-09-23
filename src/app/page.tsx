@@ -28,7 +28,7 @@ function CategorySection({
   return (
     <section id={categoryName.toLowerCase().replace(/\s+/g, '-')} className="py-12 md:py-16">
       <div className="container">
-        <h2 className="text-3xl font-bold tracking-tighter mb-8 font-headline">
+        <h2 className="text-3xl font-bold tracking-tighter text-center mb-8 font-headline">
           {categoryName}
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -65,7 +65,8 @@ function ArtisanCard({ artisan }: { artisan: Artisan }) {
 export default function Home() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-image');
   const featuredProducts = products.filter((p) => p.categoryId === 'cat-1');
-  const otherCategories = categories.filter((c) => c.id !== 'cat-1');
+  const otherCategories = categories.filter((c) => c.id !== 'cat-1' && c.id !== 'cat-4');
+  const handcraftedCategory = categories.find((c) => c.id === 'cat-4');
 
   return (
     <div>
@@ -121,8 +122,8 @@ export default function Home() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="hidden sm:flex" />
-            <CarouselNext className="hidden sm:flex" />
+            <CarouselPrevious className="flex" />
+            <CarouselNext className="flex" />
           </Carousel>
         </div>
       </section>
@@ -134,6 +135,14 @@ export default function Home() {
           categoryName={category.name}
         />
       ))}
+
+      {handcraftedCategory && (
+        <CategorySection
+          key={handcraftedCategory.id}
+          categoryId={handcraftedCategory.id}
+          categoryName={handcraftedCategory.name}
+        />
+      )}
 
       <section id="artisans" className="py-16 md:py-24 bg-accent/30">
         <div className="container text-center">

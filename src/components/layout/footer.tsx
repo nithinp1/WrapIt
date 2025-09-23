@@ -17,7 +17,7 @@ export function Footer() {
             <Link href="#" className="hover:text-primary">Terms of Service</Link>
             <Link href="#" className="hover:text-primary">Privacy Policy</Link>
           </div>
-          <div className="text-sm text-foreground/60">
+          <div className="text-sm text-center md:text-right text-foreground/60">
             © {new Date().getFullYear()} WrapIt. All rights reserved.
           </div>
         </div>
