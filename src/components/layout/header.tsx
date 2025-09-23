@@ -47,12 +47,6 @@ export function Header() {
           >
             Categories
           </Link>
-          <Link
-            href="/#artisans"
-            className="text-foreground/60 transition-colors hover:text-foreground/80 hidden md:block"
-          >
-            Artisans
-          </Link>
           <Button variant="ghost" size="icon">
             <ShoppingBag className="h-5 w-5" />
             <span className="sr-only">Shopping Cart</span>

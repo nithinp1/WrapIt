@@ -10,8 +10,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { categories, products, artisans, type Artisan } from '@/lib/data';
+import { categories, products } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ProductCard } from '@/components/product-card';
 
@@ -38,27 +37,6 @@ function CategorySection({
         </div>
       </div>
     </section>
-  );
-}
-
-function ArtisanCard({ artisan }: { artisan: Artisan }) {
-  return (
-    <div className="text-center group">
-      <Avatar className="h-32 w-32 mx-auto mb-4 border-4 border-transparent group-hover:border-accent transition-all duration-300 group-hover:scale-105">
-        <AvatarImage
-          src={artisan.avatar?.imageUrl}
-          alt={artisan.name}
-          data-ai-hint={artisan.avatar?.imageHint}
-        />
-        <AvatarFallback className="text-4xl">
-          {artisan.name.substring(0, 2)}
-        </AvatarFallback>
-      </Avatar>
-      <h3 className="text-xl font-semibold font-headline">{artisan.name}</h3>
-      <p className="text-muted-foreground text-sm line-clamp-3">
-        {artisan.story}
-      </p>
-    </div>
   );
 }
 
@@ -143,22 +121,6 @@ export default function Home() {
           categoryName={handcraftedCategory.name}
         />
       )}
-
-      <section id="artisans" className="py-16 md:py-24 bg-accent/30">
-        <div className="container text-center">
-          <h2 className="text-3xl font-bold tracking-tighter mb-4 font-headline">
-            Meet Our Artisans
-          </h2>
-          <p className="max-w-3xl mx-auto text-muted-foreground md:text-lg mb-12">
-            The talented hands and creative minds behind your favorite gifts.
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
-            {artisans.map((artisan) => (
-              <ArtisanCard key={artisan.id} artisan={artisan} />
-            ))}
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
