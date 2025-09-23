@@ -35,7 +35,7 @@ export function Header() {
         !show && '-translate-y-full'
       )}
     >
-      <div className="container flex h-16 max-w-screen-2xl items-center justify-between">
+      <div className="container flex h-16 max-w-screen-2xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
           <Gift className="h-6 w-6 text-primary" />
           <span className="font-bold text-xl text-primary font-headline">WrapIt</span>
