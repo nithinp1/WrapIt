@@ -1,3 +1,88 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "A beautifully wrapped gift box with a ribbon.",
+      "imageUrl": "https://images.unsplash.com/photo-1731686830798-01ca32301c22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3cmFwcGVkJTIwZ2lmdHxlbnwwfHx8fDE3NTg2MDM5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wrapped gift"
+    },
+    {
+      "id": "product-1-1",
+      "description": "Handcrafted wooden toy car",
+      "imageUrl": "https://images.unsplash.com/photo-1536293182766-c9c0c4133b55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b29kZW4lMjB0b3l8ZW58MHx8fHwxNzU4NjM1NDUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wooden toy"
+    },
+    {
+      "id": "product-1-2",
+      "description": "Side view of handcrafted wooden toy car",
+      "imageUrl": "https://images.unsplash.com/photo-1696527014224-81da5c10943d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b29kZW4lMjB0b3l8ZW58MHx8fHwxNzU4NjM1NDUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wooden toy"
+    },
+    {
+      "id": "product-2-1",
+      "description": "Custom engraved leather journal",
+      "imageUrl": "https://images.unsplash.com/photo-1720534195942-d55d1760df95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsZWF0aGVyJTIwam91cm5hbHxlbnwwfHx8fDE3NTg2MTA1ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leather journal"
+    },
+    {
+      "id": "product-3-1",
+      "description": "Hand-painted ceramic mug",
+      "imageUrl": "https://images.unsplash.com/photo-1495100497150-fe209c585f50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXJhbWljJTIwbXVnfGVufDB8fHx8MTc1ODYxNjY1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ceramic mug"
+    },
+    {
+      "id": "product-4-1",
+      "description": "Scented soy candle in a glass jar",
+      "imageUrl": "https://images.unsplash.com/photo-1646143612220-45f02eade445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzY2VudGVkJTIwY2FuZGxlfGVufDB8fHx8MTc1ODU5ODk4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "scented candle"
+    },
+    {
+      "id": "product-5-1",
+      "description": "Delicate silver necklace with a pendant",
+      "imageUrl": "https://images.unsplash.com/photo-1611012844392-f4f96c7fd052?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzaWx2ZXIlMjBuZWNrbGFjZXxlbnwwfHx8fDE3NTg2MTI0NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silver necklace"
+    },
+    {
+      "id": "product-6-1",
+      "description": "Gourmet chocolate box",
+      "imageUrl": "https://images.unsplash.com/photo-1607758877445-3fef75ea8abe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hvY29sYXRlJTIwYm94fGVufDB8fHx8MTc1ODYzNTQ1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate box"
+    },
+    {
+      "id": "artisan-1-avatar",
+      "description": "Portrait of artisan Elena",
+      "imageUrl": "https://images.unsplash.com/photo-1557053908-4793c484d06f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc1ODU1NDA2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "artisan-2-avatar",
+      "description": "Portrait of artisan Marcus",
+      "imageUrl": "https://images.unsplash.com/photo-1624395213043-fa2e123b2656?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg1ODI4MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "artisan-3-avatar",
+      "description": "Portrait of artisan Sarah",
+      "imageUrl": "https://images.unsplash.com/photo-1557053908-4793c484d06f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc1ODU1NDA2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "artisan-1-showcase",
+      "description": "Artisan Elena working in her workshop",
+      "imageUrl": "https://images.unsplash.com/photo-1673252412864-db659fd8707a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcnRpc3QlMjB3b3Jrc2hvcHxlbnwwfHx8fDE3NTg2MzQ1Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "artist workshop"
+    },
+    {
+      "id": "artisan-2-showcase",
+      "description": "Artisan Marcus carving wood",
+      "imageUrl": "https://images.unsplash.com/photo-1470342495351-a5f90c5011cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b29kJTIwY2FydmluZ3xlbnwwfHx8fDE3NTg1OTI2NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wood carving"
+    },
+    {
+      "id": "artisan-3-showcase",
+      "description": "Artisan Sarah painting pottery",
+      "imageUrl": "https://images.unsplash.com/photo-1599958336382-c6a7c598925c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwb3R0ZXJ5JTIwcGFpbnRpbmd8ZW58MHx8fHwxNzU4NjM1NDUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pottery painting"
+    }
+  ]
 }
