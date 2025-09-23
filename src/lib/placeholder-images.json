@@ -49,6 +49,24 @@
       "imageHint": "chocolate box"
     },
     {
+      "id": "product-7-1",
+      "description": "Hand-woven wall hanging",
+      "imageUrl": "https://images.unsplash.com/photo-1621715365938-9eab2b5d8ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b3ZlbiUyMHdhbGwtaGFuZ2luZ3xlbnwwfHx8fDE3NTg2Mzk3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woven wall-hanging"
+    },
+    {
+      "id": "product-8-1",
+      "description": "Carved wooden bowl",
+      "imageUrl": "https://images.unsplash.com/photo-1574665619640-df774e5f01bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b29kZW4lMjBib3dsfGVufDB8fHx8MTc1ODU5ODk4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wooden bowl"
+    },
+    {
+      "id": "product-9-1",
+      "description": "Pottery bud vase set",
+      "imageUrl": "https://images.unsplash.com/photo-1723779235484-d654974173d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb3R0ZXJ5JTIwdmFzZXxlbnwwfHx8fDE3NTg2Mzk3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pottery vase"
+    },
+    {
       "id": "artisan-1-avatar",
       "description": "Portrait of artisan Elena",
       "imageUrl": "https://images.unsplash.com/photo-1557053908-4793c484d06f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc1ODU1NDA2MXww&ixlib=rb-4.1.0&q=80&w=1080",

@@ -30,6 +30,7 @@ export const categories = [
   { id: 'cat-1', name: 'Featured Gifts' },
   { id: 'cat-2', name: 'Birthday Gifts' },
   { id: 'cat-3', name: 'Wedding Specials' },
+  { id: 'cat-4', name: 'Handcrafted' },
 ];
 
 export const products = [
@@ -40,7 +41,7 @@ export const products = [
     price: 35.00,
     images: [findImage('product-1-1'), findImage('product-1-2')],
     artisanId: 'artisan-2',
-    categoryId: 'cat-2',
+    categoryId: 'cat-4',
     reviews: [
       { id: 'rev-1', author: 'Jane D.', rating: 5, comment: 'Beautiful craftsmanship. My son loves it!' },
       { id: 'rev-2', author: 'Mark T.', rating: 5, comment: 'Solid wood, smooth finish. A timeless toy.' },
@@ -71,7 +72,7 @@ export const products = [
     price: 28.00,
     images: [findImage('product-3-1')],
     artisanId: 'artisan-3',
-    categoryId: 'cat-2',
+    categoryId: 'cat-4',
     reviews: [
       { id: 'rev-4', author: 'Chris P.', rating: 4, comment: 'Lovely design, but a bit smaller than I expected.' },
       { id: 'rev-5', author: 'Anna K.', rating: 5, comment: 'I bought this as a gift and they adored it. So unique!' },
@@ -124,6 +125,45 @@ export const products = [
     ],
     customizationOptions: {
         themes: ['Dark Chocolate Mix', 'Milk & White', 'Caramel Filled'],
+    },
+  },
+  {
+    id: 'prod-7',
+    title: 'Hand-Woven Wall Hanging',
+    description: 'Add a touch of bohemian chic to your home with this beautiful hand-woven wall hanging, made with natural fibers.',
+    price: 65.00,
+    images: [findImage('product-7-1')],
+    artisanId: 'artisan-1',
+    categoryId: 'cat-4',
+    reviews: [],
+    customizationOptions: {
+        themes: ['Natural Tones', 'Ocean Blues', 'Sunset Hues'],
+    },
+  },
+  {
+    id: 'prod-8',
+    title: 'Carved Wooden Bowl',
+    description: 'A stunning and functional piece, this bowl is hand-carved from a single piece of olive wood, perfect for salads or as a decorative item.',
+    price: 85.00,
+    images: [findImage('product-8-1')],
+    artisanId: 'artisan-2',
+    categoryId: 'cat-4',
+    reviews: [],
+    customizationOptions: {
+        themes: ['Natural Finish', 'Dark Stain'],
+    },
+  },
+  {
+    id: 'prod-9',
+    title: 'Pottery Bud Vase Set',
+    description: 'A set of three small, elegant bud vases, each with a unique shape and glaze. Perfect for single stems or small bouquets.',
+    price: 48.00,
+    images: [findImage('product-9-1')],
+    artisanId: 'artisan-3',
+    categoryId: 'cat-4',
+    reviews: [],
+    customizationOptions: {
+        themes: ['Earthy Tones', 'Pastel Collection', 'Monochrome'],
     },
   }
 ];
