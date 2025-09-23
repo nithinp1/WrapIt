@@ -36,7 +36,7 @@ export function ProductCard({ product }: { product: Product }) {
         )}
         <div className="flex-grow" />
         <div className="flex justify-between items-center mt-4">
-            <p className="text-xl font-bold text-primary">${product.price.toFixed(2)}</p>
+            <p className="text-xl font-bold text-primary">₹{product.price.toFixed(2)}</p>
             <Button asChild size="sm">
             <Link href={`/products/${product.id}`}>View</Link>
             </Button>
