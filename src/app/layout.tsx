@@ -8,6 +8,9 @@ import { Toaster } from '@/components/ui/toaster';
 export const metadata: Metadata = {
   title: 'WrapIt',
   description: 'Discover unique, handcrafted gifts from talented artisans.',
+  verification: {
+    google: '1oFuWA883DAqXxp-RG7IkEMtxLyYO-e8ceLya0l8tvU',
+  },
 };
 
 export default function RootLayout({
